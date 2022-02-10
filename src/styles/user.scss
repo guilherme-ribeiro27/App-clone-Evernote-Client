@@ -1,0 +1,14 @@
+@import './_custom_colors.scss';
+
+.user{
+    height: calc(100% - 70px);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

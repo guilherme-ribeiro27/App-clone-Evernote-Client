@@ -1,0 +1,31 @@
+@import './custom_colors.scss';
+
+.notes{
+    height: calc(100% - 70px);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  
+.bm-menu{
+    background: white;
+    padding-top: 10px;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    background-color: $custom-grey;
+}
+
+.list-item.is-active{
+    background-color: $custom-grey-lighter;
+}
+
+.notes-editor{
+    height: calc(100% - 70px);
+    .quill{
+        height: 100%;
+    }
+}
